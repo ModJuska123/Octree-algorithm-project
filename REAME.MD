@@ -15,13 +15,11 @@ This project is used for learning purpose only. The project implements a standar
 To get started:
 
 1. Open the folder to clone the APP:
-
 ```powershell
 cd YourFoldersName
 ```
 
 2. Clone the APP: 
-
 ```powershell
 git clone https://github.com/ModJuska123/Octree-algorithm-project
 ```
@@ -30,6 +28,7 @@ git clone https://github.com/ModJuska123/Octree-algorithm-project
 ```powershell
 cd YourFoldersName
 ```
+
 3. Check weather Node and NPM are installed:
 ```powershell
 node -v
@@ -45,6 +44,7 @@ npm install --savedev vite
 ```powershell
 npm install --save three
 ```
+
 6. Adjust package.json file "scripts" part adding extra script
 ```powershell
 "scripts": {
