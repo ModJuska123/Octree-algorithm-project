@@ -56,7 +56,6 @@ npm install --save three
 
 1. Open the APP you just cloned entering `cd YourFoldersName`.
 2. Run the APP entering `npm run dev` into the terminal.
-3. Generated 3D image will be shown in your browser.
 
 
 ## 🧪LAS file saving process 
