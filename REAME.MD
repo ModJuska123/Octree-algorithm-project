@@ -1,38 +1,72 @@
+# Octree-algorithm-project
 
-Here's a concise README for your Octree algorithm implementation in JavaScript:
+This project is used for learning purpose only. The project implements a standard Octree algorithm using JavaScript and the Three.js library. The Octree is used for 3D spatial partitioning by recursively subdividing space into smaller cubes (nodes) and adding spheres in each. Created objects are saved to LAS format file and delivered to pc. 
 
-Octree Algorithm Implementation
-This project implements a standard Octree algorithm using JavaScript and the Three.js library. The Octree is used for efficient 3D spatial partitioning by recursively subdividing space into smaller cubes (nodes). This is particularly useful for handling large sets of points in 3D space.
+![image info](./img.png)
 
-Features
-OctreeNode class represents each node (cube) in the tree.
-Insert points into the Octree structure recursively.
-Subdivide nodes when the number of points exceeds the specified limit.
-Query points within a specific range in 3D space.
-Three.js integration for visualizing points.
-Installation
-Clone the repository.
-Ensure you have Three.js installed in your project.
-Include the OctreeNode and Sphere classes in your project.
-Usage
-Create an Octree root node with a specific center and size:
+## 📑 Table of Contents
+- Installation
+- Running the APP
+- Use commands in VSC terminal
+- Authors
+- License
 
-js
-Copy code
-const octree = new OctreeNode(new THREE.Vector3(0, 0, 0), 100);
-Insert points into the Octree:
+## 🚀Installation
+To get started:
 
-js
-Copy code
-const point = new THREE.Vector3(1, 2, 3);
-octree.insert(point);
-Query points within a range:
+1. Open the folder to clone the APP:
 
-js
-Copy code
-const searchRange = new OctreeNode(new THREE.Vector3(0, 0, 0), 20);
-const foundPoints = octree.query(searchRange);
-Use Three.js to visualize the points in 3D space.
+```powershell
+cd YourFoldersName
+```
 
-License
-This project is open source and available under the MIT License.
+2. Clone the APP: 
+
+```powershell
+git clone https://github.com/ModJuska123/Octree-algorithm-project
+```
+
+3. Navigate to your folder:
+```powershell
+cd YourFoldersName
+```
+3. Check weather Node and NPM are installed:
+```powershell
+node -v
+npm -v
+```
+
+4. Instal vite
+```powershell
+npm install --savedev vite
+```
+
+5. Instal three.js library
+```powershell
+npm install --save three
+```
+6. Adjust package.json file "scripts" part adding extra script
+```powershell
+"scripts": {
+    "dev": "vite --host 127.0.0.1"
+  }
+```
+
+## 🎉Running the APP
+
+1. Open the APP you just cloned entering `cd YourFoldersName`.
+2. Run the APP entering `npm run dev` into the terminal.
+3. Generated 3D image will be shown in your browser.
+
+
+## 🧪LAS file saving process 
+
+As soon you will run the code LAS file will be generated and saved to your PC.
+
+## 🎓 Authors
+
+Modestas Juška: [Github](https://github.com/ModJuska123).
+
+## 🎭 License
+
+Distributed under the MIT license.
