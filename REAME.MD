@@ -7,7 +7,7 @@ This project is used for learning purpose only. The project implements a standar
 ## 📑 Table of Contents
 - Installation
 - Running the APP
-- Use commands in VSC terminal
+- LAS file saving process
 - Authors
 - License
 
